@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import default function Home(){
+export default function Home(){
     const canvasRef= useRef<HTMLCanvasElement>(null);
     const [isDrawing, setIsDrawing]= useState(false);
 
